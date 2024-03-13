@@ -4,13 +4,13 @@ import face_recognition as fr
 
 video_capture=cv2.VideoCapture(0)  
 
-image = fr.load_image_file(r"C:\Users\Yogesh\OneDrive\Pictures\Yogesh.jpg")
+image = fr.load_image_file(r"C:\Users\aryan\OneDrive\Pictures\aryan.jpg")
 
 image_face_encoding = fr.face_encodings(image)[0]
 
 known_face_encodings=[image_face_encoding]
 
-known_face_name=["yogesh"]
+known_face_name=["aryan"]
 
 while True:
     
